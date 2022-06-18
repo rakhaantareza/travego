@@ -494,5 +494,11 @@ header .btn-get-started:hover {
   .xzoom-gallery {
     width: 80px;
   }
+  .section-stats h2 {
+    font-size: 20px;
+  }
+  .section-stats p {
+    font-size: 12px;
+  }
 }
 /*# sourceMappingURL=main.css.map */
