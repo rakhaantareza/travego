@@ -10,7 +10,7 @@
     href="frontend/libraries/bootstrap/css/bootstrap.css"
     />
     <link 
-    href="https://fonts.googleapis.com/css2?family=Assistant:wght@200;300;400;500;600;700;800&family=Quicksand:wght@300;400;500;600;700&display=swap" rel="stylesheet"
+    href="https://fonts.googleapis.com/css2?family=Assistant:wght@200;300;400;500;600;700;800&family=Sen:wght@700&display=swap" rel="stylesheet"
     />
     <link 
     rel="stylesheet" 
@@ -19,9 +19,8 @@
   </head>
   <body>
 
-    <!-- Navbar -->
     <div class="container">
-      <nav class="row navbar navbar-expand-lg navbar-light bg-white">
+      <nav class="row navbar navbar-expand-lg navbar-light bg-light">
         <a class="navbar-brand" href="#">
           <img src="frontend/images/logo_vacay.png" alt="" />
         </a>
@@ -34,7 +33,7 @@
           <span class="navbar-toggler-icon"></span>
         </button>
         
-        <div class="collapse navbar-collapse" id="navb">
+        <n class="collapse navbar-collapse" id="navb">
           <ul class="navbar-nav ml-auto mr-3">
             <li class="nav-item mx-md-2">
               <a class="nav-link active" href="#">Home</a>
@@ -75,8 +74,8 @@
               Masuk
             </button>
           </form>
-      </nav>
-    </div>
+        </nav>
+      </div>
 
     <!-- Header -->
     <header class="text-center">
@@ -100,19 +99,19 @@
       <div class="container">
         <section class="section-stats row justify-content-center" id="stats">
           <div class="col-3 col-md-2 stats-detail">
-            <h2>24K</h2>
+            <h2 class="card-counter">5248</h2>
             <p>Members</p>
           </div>
           <div class="col-3 col-md-2 stats-detail">
-            <h2>24</h2>
+            <h2 class="card-counter">24</h2>
             <p>Countries</p>
           </div>
           <div class="col-3 col-md-2 stats-detail">
-            <h2>8K</h2>
+            <h2 class="card-counter">327</h2>
             <p>Hotels</p>
           </div>
           <div class="col-3 col-md-2 stats-detail">
-            <h2>72</h2>
+            <h2 class="card-counter">72</h2>
             <p>Partners</p>
           </div>
         </section>
@@ -342,9 +341,19 @@
         </div>
       </div>
     </footer>
-
+    
     <script src="frontend/libraries/jquery/jquery-3.4.1.min.js"></script>
     <script src="frontend/libraries/bootstrap/js/bootstrap.js"></script>
     <script src="frontend/libraries/retina/retina.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/waypoints/4.0.1/jquery.waypoints.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/Counter-Up/1.0.0/jquery.counterup.min.js"></script>
+    <script>
+      $(document).ready(function() {
+          $(".card-counter").counterUp({
+              delay: 10,
+              time: 2000,
+          });
+      });
+    </script>
   </body>
 </html>
