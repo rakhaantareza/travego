@@ -50,11 +50,11 @@ header h1, header p {
 
 header h1 {
   font-family: 'Sen', sans-serif;
-  font-size: 42px;
+  font-size: 46px;
 }
 
 header p {
-  font-size: 20px;
+  font-size: 18px;
 }
 
 header .btn-get-started {
@@ -106,7 +106,7 @@ header .btn-get-started:hover {
 .section-popular .section-popular-heading h2 {
   font-family: 'Sen', sans-serif;
   font-weight: bold;
-  font-size: 32px;
+  font-size: 30px;
 }
 
 .section-popular .section-popular-heading p {
@@ -152,7 +152,7 @@ header .btn-get-started:hover {
 .section-networks h2 {
   font-family: 'Sen', sans-serif;
   font-weight: bold;
-  font-size: 32px;
+  font-size: 30px;
 }
 
 .section-networks p {
@@ -173,7 +173,7 @@ header .btn-get-started:hover {
 .section-testimonial-heading h2 {
   font-family: 'Sen', sans-serif;
   font-weight: bold;
-  font-size: 32px;
+  font-size: 30px;
 }
 
 .section-testimonial-heading p {
